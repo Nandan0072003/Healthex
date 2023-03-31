@@ -1,5 +1,5 @@
 # Healthex
-First try to import all these files and folders into one single folder in your system.
+First import all these files and folders into one single folder in your system.
 Then take any editors like VS Code and take the directory of the concerned folder
 After that install packages of web3.js by typing 'npm install web3' on the terminal
 Make sure you had installed Node.js on your system.
