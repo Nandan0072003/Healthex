@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Information</title>
+    <script src="app.js"></script>
+</html>
+    <style>
+		h1 {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+input[type="file"] {
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+	</style>
+  </head>
+  <body>
+    <h1>User Information</h1>
+    <form class="fillupdetails">
+		<label for="Symptoms">Symptoms</label>
+		<br><br>
+		<textarea id="Symptoms" name="Symptoms" rows="5" required></textarea>
+		<br><br>
+		<label for="Inference">Inference</label>
+		<br><br><textarea id="Inference" name="Inference" rows="5" required></textarea>
+		<br><br>
+        <label for="Treatment">Treatment&Medication</label>
+		<br><br>
+		<textarea id="Treatment" name="Treatment" rows="5" required></textarea>
+		
+       
+		
+      <input type="file" id="documents" name="documents" multiple><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="users"></div>
+    <script src="bundle.js"></script>
+ 
+
+  </body>
+
+</html>
